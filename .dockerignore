@@ -1,4 +1,5 @@
 .gitignore
+pdfs/.gitkeep
 Dockerfile
 docker-compose.yaml
 **/__pycache__/
