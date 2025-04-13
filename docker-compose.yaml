@@ -1,0 +1,12 @@
+version: '3'
+services:
+  private_chatbot:
+    build:
+      context: .
+    ports:
+      - "7860:7860"
+    working_dir: /usr/src/app
+    env_file:
+      - .env
+    volumes:
+      - ./pdfs:/usr/src/app/pdfs
